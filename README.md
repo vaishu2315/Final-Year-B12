@@ -1,5 +1,5 @@
-Step1 : Firstly the MRI scan image is uploaded,then the segmentation and detection is done using the CNN algorithm. 
-Step 2: The dataset is collected and it is used for traning and testing.
-Step 3: The images from the Testing Dataset undergo feature extraction process to extract all the required features to analyze the image and to produce the appropriate result
-Step 4: Then these data will be processed further for the feature selection and the system is trained using deep learning algorithm
-Step 5: Once training is complete, the system is ready for authenticating the users.
+Step 1: Initially, the MRI scan image is uploaded,then the feature extraction and segmentation is done. 
+Step 2: The tumor will be clearly visible in grey scale image and in the segmented image.
+step 3: The system detects the location, size and shape of the tumor using the segmented image.
+Step 4: It displays a message called "tumor detected" if the tumor is detected and shows "no tumor" when there is no tumor detected.  
+Step 5: Then if the the tumor is detected the system will give some general treatment suggestions and post-operative recovery ideas.
